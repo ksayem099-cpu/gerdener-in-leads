@@ -37,3 +37,8 @@ form.addEventListener('submit', e => {
   note.className = 'note';
   form.reset();
 });
+
+// Respect "reduce motion": stop the leaf flutter too
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.querySelectorAll('#flutter animate').forEach(a => a.remove());
+}
