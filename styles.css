@@ -34,7 +34,7 @@ h1 em{color:var(--g6);font-style:italic}
 .blob{position:absolute;border-radius:50%}
 .b1{inset:6%;background:var(--sand)}
 .b2{width:34%;height:34%;right:4%;top:6%;background:var(--acc);opacity:.85}
-.plant{position:relative;width:100%;height:100%;animation:sway 6s ease-in-out infinite;transform-origin:50% 90%}
+.plant{position:relative;display:block;width:92%;height:auto;margin:4% auto 0;filter:drop-shadow(0 18px 22px rgba(31,61,43,.22));animation:sway 6s ease-in-out infinite;transform-origin:50% 90%}
 @keyframes sway{50%{transform:rotate(3deg)}}
 
 .strip{background:var(--g8);color:#e9f1e6;overflow:hidden}
